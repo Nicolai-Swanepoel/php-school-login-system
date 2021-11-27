@@ -67,14 +67,14 @@
       </div>
       <div class="formcenter">
         <div class="form">
-      <form class="myForm" action="login_process.php" onsubmit="return validate();">
+      <form class="myForm" action="php/login_process.php" onsubmit="return validate();">
         <h1 style="font-family: Arial, Helvetica, sans-serif;">Login</h1>
         <input type="text" name="txtemail" placeholder="Email..."><br/>
         <input type="text" name="txtpassword" placeholder="Password..."><br/>
         </br>
         </br>
         <input type="submit" name="" value="Login">
-        <a href="forgot_password.php">Forgot Password?</a>
+        <a href="php/forgot_password.php">Forgot Password?</a>
       </br>
       </br>
       </br>

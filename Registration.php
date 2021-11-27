@@ -34,7 +34,7 @@
       <h1 style="text-align: center;">Register Below</h1>
       </br>
       <!-- the registration form -->
-      <form class="form" action="registration_process.php">
+      <form class="form" action="php/registration_process.php">
         <input type="text" name="txtfirstname" placeholder="Firstname...">
       </br>
         <input type="text" name="txtlastname" placeholder="lastname...">

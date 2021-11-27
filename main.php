@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8">
     <title>Main page</title>
-    <link href="jquery-ui.css" rel="stylesheet">
+    <link href="js/jquery-ui.css" rel="stylesheet">
     <!-- welcoming the user -->
     <?php
     $hello = array("User");
@@ -88,8 +88,8 @@
     <nav>
       <div class="division">
       <ul>
-        <li><a href="change_profile.php" style="color: red;">Change Profile</a></li>
-        <li><a href="logout_process.php" style="color: red;">Logout</a></li>
+        <li><a href="php/change_profile.php" style="color: red;">Change Profile</a></li>
+        <li><a href="php/logout_process.php" style="color: red;">Logout</a></li>
       </ul>
       </div>
     </nav>
@@ -118,7 +118,7 @@
           <li><a href="#tabs-9" class="tabs">PERSONAL CORRESPONDANCE</a></li>
           <li><a href="#tabs-10" class="tabs">MOVIE</a></li>
       	</ul>
-      	<div id="tabs-1"><form class="" style ="text-align: center; background-color: #87CEEB;" action="book_process.php">
+      	<div id="tabs-1"><form class="" style ="text-align: center; background-color: #87CEEB;" action="php/book_process.php">
           <h1>Book </h1><br/>
           <input type="text" name="txtSurname" value="" placeholder="Author Surname"><br/>
           <input type="text" name="txtInitials" value="" placeholder="Author Initials"><br/>
@@ -130,7 +130,7 @@
           <br/>
           <input type="submit" name="" style="color: red;" value="Generate">
         </form></div>
-        <div id="tabs-2"><form class="" style ="text-align: center; background-color: #87CEEB;" action="dictionary_process.php" method="post">
+        <div id="tabs-2"><form class="" style ="text-align: center; background-color: #87CEEB;" action="php/dictionary_process.php" method="post">
           <h1>Dictionary</h1><br/>
           <input type="text" name="txtTitle" value="" placeholder="Title of Disctionary"><br/>
           <input type="text" name="txtYear" value="" placeholder="Year published"><br/>
@@ -139,7 +139,7 @@
           <br/>
           <input type="submit" name="" style="color: red;" value="Generate">
         </form></div>
-        <div id="tabs-3"><form class="" style ="text-align: center; background-color: #87CEEB;" action="edictionary_process.php" method="post">
+        <div id="tabs-3"><form class="" style ="text-align: center; background-color: #87CEEB;" action="php/edictionary_process.php" method="post">
           <h1>Electronic dictionary</h1><br/>
           <input type="text" name="txtTitle" value="" placeholder="Title Of Website"><br/>
           <input type="text" name="txtCopyDate" value="" placeholder="Copyright Date"><br/>
@@ -149,7 +149,7 @@
           <br/>
           <input type="submit" name="" style="color: red;" value="Generate">
         </form></div>
-        <div id="tabs-4"><form class="" style ="text-align: center; background-color: #87CEEB;" action="journalarticle_process.php" method="post">
+        <div id="tabs-4"><form class="" style ="text-align: center; background-color: #87CEEB;" action="php/journalarticle_process.php" method="post">
             <h1>Journal article</h1><br/>
             <input type="text" name="txtSurname" value="" placeholder="Author Surname"><br/>
             <input type="text" name="txtInitials" value="" placeholder="Author Initials"><br/>
@@ -162,7 +162,7 @@
             <input type="submit" name="" style="color: red;" value="Generate">
           </form>
         </div>
-        <div id="tabs-5"><form class="" style ="text-align: center; background-color: #87CEEB;" action="newspaperarticle_process.php" method="post">
+        <div id="tabs-5"><form class="" style ="text-align: center; background-color: #87CEEB;" action="php/newspaperarticle_process.php" method="post">
             <h1>Newspaper article</h1><br/>
             <input type="text" name="txtSurname" value="" placeholder="Author Surname"><br/>
             <input type="text" name="txtInitials" value="" placeholder=" Author Initials"><br/>
@@ -175,7 +175,7 @@
             <br/>
             <input type="submit" name="" style="color: red;" value="Generate">
           </form></div>
-        <div id="tabs-6"><form class="" style ="text-align: center; background-color: #87CEEB;" action="enewspaperarticle_process.php" method="post">
+        <div id="tabs-6"><form class="" style ="text-align: center; background-color: #87CEEB;" action="php/enewspaperarticle_process.php" method="post">
               <h1> Electronic newspaper article</h1>
               <br/>
               <input type="text" name="txtSurname" value="" placeholder="Author Surname"><br/>
@@ -189,7 +189,7 @@
               <br/>
               <input type="submit" name="" style="color: red;" value="Generate">
             </form></div>
-        <div id="tabs-7"><form class="" style ="text-align: center; background-color: #87CEEB;"action="internetarticle_process.php" method="post">
+        <div id="tabs-7"><form class="" style ="text-align: center; background-color: #87CEEB;"action="php/internetarticle_process.php" method="post">
                 <h1> Internet article</h1>
                 <br/>
                 <input type="text" name="txtSurname" value="" placeholder="Author Surname"><br/>
@@ -201,7 +201,7 @@
                 <br/>
                 <input type="submit" name="" style="color: red;" value="Generate">
               </form></div>
-        <div id="tabs-8"><form class="" style ="text-align: center; background-color: #87CEEB;"action="enewsletter_process.php" method="post">
+        <div id="tabs-8"><form class="" style ="text-align: center; background-color: #87CEEB;"action="php/enewsletter_process.php" method="post">
                   <h1> Electronic Newsletter</h1><br/>
                   <input type="text" name="txtSurname" value="" placeholder="Author Surname"><br/>
                   <input type="text" name="txtInitials" value="" placeholder="Author Initials"><br/>
@@ -212,7 +212,7 @@
                   <br/>
                   <input type="submit" name="" style="color: red;" value="Generate">
                 </form></div>
-        <div id="tabs-9"><form style ="text-align: center; background-color: #87CEEB;"class=""action="personalcorrespondance_process.php"method="post">
+        <div id="tabs-9"><form style ="text-align: center; background-color: #87CEEB;"class=""action="php/personalcorrespondance_process.php"method="post">
                     <h1>Personal Correspondance</h1><br/>
                     <input type="text" name="txtSurname" value="" placeholder="Surname"><br/>
                     <input type="text" name="txtInitials" value="" placeholder="Initials"><br/>
@@ -224,7 +224,7 @@
                     <br/>
                     <input type="submit" name="" style="color: red;" value="Generate">
                   </form></div>
-        <div id="tabs-10"><form class="" style ="text-align: center; background-color: #87CEEB;" action="movie_process.php" method="post">
+        <div id="tabs-10"><form class="" style ="text-align: center; background-color: #87CEEB;" action="php/movie_process.php" method="post">
                       <h1>Movie</h1><br/>
                       <input type="text" name="txtTitle" value="" placeholder="Movie Title"><br/>
                       <input type="text" name="txtYear" value="" placeholder="Year Released"><br/>
@@ -242,8 +242,8 @@
       </div>
       </div>
       <!-- jquery scripts -->
-      <script src="jquery.js"></script>
-      <script src="jquery-ui.js"></script>
+      <script src="js/jquery.js"></script>
+      <script src="js/jquery-ui.js"></script>
       <!-- some jquery -->
       <script type="text/javascript">
       $( "#tabs" ).tabs();

@@ -33,7 +33,7 @@
     <div class="container">
       <h1 style="text-align: center; font-family: Arial, Helvetica, sans-serif; ">Change Your Login Details Below</h1>
       </br>
-      <form class="form" action="change_profile_process.php">
+      <form class="form" action="php/change_profile_process.php">
         <input type="text" name="txtemail" placeholder="New Email">
         </br>
         </br>

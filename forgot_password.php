@@ -31,7 +31,7 @@
   <body>
     <div class="container">
       <h1 style="text-align: center; font-family: Arial, Helvetica, sans-serif; padding-top: 20px; ">Please type your current email and new password below</h1>
-      <form class="form" action="forgot_password_process.php">
+      <form class="form" action="php/forgot_password_process.php">
         <input type="text" name="txtemail" placeholder="Current Email">
         <br/>
         <input type="text" name="txtpassword" placeholder="New Password">
